@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aryam coffee</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="project.js">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+
+
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+     
+</head>
+<body>
+    <section class="section1">
+        <div class="header">
+            <img src="./sf/ph1.png" alt="">
+            <div class="list1">
+                <ul>
+                    <li><a href="./project.html">HOME</a></li>
+                    <li><a href="./menu.html">MENU</a></li>
+                    <li><a href="./orde.html">ORDER</a></li>
+                    <li><a id="pol" href="./location.html">LOCATION</a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="serch">
+                <input type="text" id="search-box" placeholder="search here..">
+                <label id="search" for="search-box" class="material-symbols-outlined">search</label>
+                <div class="dow">
+                    <ul class="dow1">
+                        <li class="list-group-item p-3"><a href="./menu.html">Ethiopian coffee</a></li>
+                        <li class="list-group-item p-3"><a href="./menu.html">Brazilian coffee</a></li>
+                        <li class="list-group-item p-3"><a href="./menu.html">Italian coffee</a></li>
+                        <li class="list-group-item p-3"><a href="./menu.html">Turkish coffee</a></li>
+                        <li class="list-group-item p-3"><a href="./menu.html">Colombian coffee</a></li>
+                        <li class="list-group-item p-3"><a href="./menu.html">Mexican coffee</a></li>
+                        <li class="list-group-item p-3"><a href="./menu.html">Ugandan coffee</a></li>
+                        <li class="list-group-item p-3"><a href="./menu.html">Kenyan coffee</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+            <ul class="login">
+                    <li><a class="a" href="./login.html">Log in</a></li>
+                    <li><a class="b" href="./signup.html">Sign up</a></li>
+            </ul>
+            <div class="no">
+                <label id="ser" for="search-box" class="material-symbols-outlined">search</label>
+                <div id="person"><ion-icon name="person"></ion-icon></div>
+                <div id="menu" ><ion-icon name="menu"></ion-icon></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section 2 -->
+    <section class="section2">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                <div id="su" class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="slide1"><br><br><br><br><br><br><br><br>
+                            <h1 class="text2">COME AND DRINK COFFEE</h1>
+                            <h1 class="text1">A GOOD DAY STARTS WITH A POSITIVE <br>ATTITUDE AND A GREAT CUP OF COFFEE</h1>   
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="slide2"><br><br><br><br><br><br><br><br>
+                            <h1 class="text2">ኑ ቡና ጠጡ</h1>
+                            <h1 class="text1">ጥሩ ቀን በአዎንታዊ አመለካከት <br>እና ደስ በሚል ቡና ይጀምራል</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="slide3"><br><br><br><br><br><br><br><br>
+                            <h1 class="text2">Gel ve kahve iç</h1>
+                            <h1 class="text1">İyi bir gün olumlu bir tutum <br>ve harika bir fincan kahve ile başlar</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="slide4"><br><br><br><br><br><br><br><br>
+                            <h1 class="text2">Vieni a bere un caffè</h1> 
+                            <h1 class="text1">bona dies incipit cum positivum <br>attitude et magnum calicem capuluss</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="lq" class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span id="wwe" class="carousel-control-prev-icon"></span>
+            </button>
+            <button id="lq" class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span id="wwe" class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+       
+            <div class="lista">
+                <ul>
+                    <li> <a href="#culture">CULTURE</a></li>
+                    <li> <a href="#taste">TASTE</a></li>
+                    <li> <a href="#roast">ROAST</a></li>
+                </ul>
+            </div>
+    </section>
+
+
+    <!-- section 3 -->
+    <section  class="section3" >
+        <div class="image" id="first" >
+            <img  src="./sf/ph7.jpg" alt="">
+            <h1>AWESOME AROMA</h1>
+            <p>Welcome to our coffee cafe, indulge in the captivating aroma of our coffee cafe, where excellence is brewed to perfection. Let the enticing scent guide you to a world of sensory bliss, where each sip is a symphony of flavors. Immerse yourself in the inviting ambiance, where the rich fragrance of freshly brewed coffee envelops you in pure delight. Join us today and experience the magic of our aromatic brews that will awaken your senses and leave you craving for more.</p>
+        </div>
+        <div class="image"id="first" >
+            <img src="./sf/ph8.jpg" alt="">
+            <h1>HIGH QUALITY</h1>
+            <p>Welcome to our coffee cafe, where quality is our passion. We source only the finest beans, ensuring every cup is a masterpiece. Our skilled baristas meticulously craft each brew, delivering a taste that exceeds expectations. From the first sip to the last, indulge in the richness and depth of flavor that defines our commitment to excellence. Step into our cafe and immerse yourself in the world of high-quality coffee. Discover a taste that sets us apart. Experience the true essence of coffee perfection at our exceptional cafe.</p>
+        </div>
+        <div class="image"id="second" >
+            <img src="./sf/ph9.jpg" alt="">
+            <h1>PURE GRADES</h1>
+            <p>Welcome to our coffee cafe, where purity is paramount. We proudly serve pure-grade coffee, meticulously selected and expertly brewed. Each cup embodies the essence of exceptional quality and authenticity. Our beans are sourced from renowned regions, ensuring a pure and unadulterated coffee experience. Immerse yourself in the richness and depth of flavor that comes from our dedication to pure-grade perfection. Discover the true essence of coffee purity at our inviting cafe. Experience the unparalleled satisfaction that only pure-grade coffee can deliver.</p>
+        </div>
+        <div class="image" id="second">
+            <img src="./sf/ph10.jpg" alt="">
+            <h1>PROPER ROASTING</h1>
+            <p>Welcome to our coffee cafe, where proper roasting is an art form. We take pride in our precise roasting techniques, unlocking the full potential of each bean. Our expert roasters carefully monitor the process, ensuring optimal flavor development and consistency. With each cup, you'll taste the perfect balance of flavors brought to life through proper roasting. Immerse yourself in the rich aroma and nuanced profiles that only proper roasting can achieve. Step into our cafe and savor the results of our dedication to the art of roasting. Experience the true essence of coffee excellence through proper roasting techniques at our exceptional cafe.</p>
+        </div>
+    </section>
+     
+
+    <!-- section 4 -->
+    <section id="culture" class="section4">
+        <div class="culture">
+            <img id="first" src="./sf/ph11.png" alt="">
+        </div>
+            <div class="coffee"><br><br><br><br><br>
+            <h1>COFFEE CULTURE</h1><br>
+            <p>Coffee culture: a global phenomenon that celebrates the art of coffee. It unites people, sparks creativity, and fosters community. From bustling cafes to personal rituals at home, it's a journey of exploration and connection. Dive into diverse flavors, brewing methods, and origins. It's a pause in our busy lives, inviting us to savor the moment. Embrace the rituals, savor the flavors, and experience the vibrant world of coffee culture.</p>
+       </div>
+    </section>
+
+
+    <!-- section 5 -->
+    <section id="taste" class="section5">
+        <h1 class="hh">GLOBALLY RECOGNIZED TASTES</h1><br>
+        <div id="taste" class="taste">
+            <div class="tastes">
+                <img src="./sf/ph12.jpg" alt="">
+                <div class="sa">
+                   <h1>Arabica</h1>
+                   <p>Arabica coffee: a true delight for coffee connoisseurs. Grown at higher altitudes, it boasts exceptional flavor and aroma. With nuanced profiles ranging from fruity to chocolatey, Arabica beans are the preferred choice for specialty coffee. Indulge in the exquisite taste of Arabica and experience the pinnacle of coffee excellence.</p>
+                </div>
+            </div>
+            <div class="tastes">
+                <img src="./sf/ph13.jpg" alt="">
+                <div class="sa">
+                    <h1>Robusta</h1>
+                    <p>Robusta coffee: a robust and bold choice for coffee enthusiasts. Grown at lower altitudes, it offers a stronger and more bitter flavor profile. Known for its higher caffeine content and rich crema, Robusta beans add depth and intensity to blends. Embrace the boldness of Robusta and discover a coffee experience with a powerful kick.</p>
+                </div>
+            </div>
+            <div class="tastes">
+                <img src="./sf/ph14.jpg" alt="">
+                <div class="sa">
+                    <h1>Excelsa</h1>
+                    <p>Excelsa coffee: a unique and distinct member of the coffee family. It offers a complex flavor profile with hints of tartness and fruity notes. Often considered a subcategory of Liberica, Excelsa beans contribute to blends, adding depth and complexity. Experience the intriguing taste of Excelsa coffee and embark on a journey of flavor exploration.</p>
+                </div>
+            </div>
+            <div class="tastes">
+                <img src="./sf/ph15.jpg" alt="">
+                <div class="sa">
+                   <h1>Liberica</h1>
+                   <p>Liberica coffee: a rare and distinctive coffee variety. Known for its robust and bold flavor profile, it offers a unique taste experience. With its large beans and smoky, woody notes, Liberica stands out among other coffee types. Embrace the rarity and richness of Liberica coffee and discover a flavor unlike any other.</p>
+                </div>
+            </div>
+        </div>
+    </section><br><br>
+
+
+    <!-- secton6 -->
+    <section id="roast" class="section6">
+        <div id="leul" class="carousel" data-bs-ride="carousel">
+            <button class="buttons" type="button" data-bs-target="#leul" data-bs-slide-to="0">LIGHT</button>
+            <button class="buttons" type="button" data-bs-target="#leul" data-bs-slide-to="1">MEDIUM</button>
+            <button class="buttons" type="button" data-bs-target="#leul" data-bs-slide-to="2">HARD</button>
+            <button class="buttons" type="button" data-bs-target="#leul" data-bs-slide-to="3">BLENDS</button><br><br><br>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="roast">
+                        <div class="buna">
+                            <h1>LIGHT-ROASTED</h1><br>
+                            <p>Light-roasted coffee: a delicate and nuanced delight. This roast level brings out the coffee's natural flavors and highlights its unique characteristics. With a light brown color and a subtle acidity, it offers a vibrant and crisp taste on the palate. The lighter roast allows the original flavors of the beans to shine through, resulting in a more complex and intricate cup. Perfect for those who appreciate the intricate subtleties of coffee, light-roasted coffee is a delightful choice for a refined and refreshing coffee experience.</p>
+                        </div>
+                        <img src="./sf/ph16.png" alt="">
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <div class="roast">
+                        <div class="buna">
+                            <h1>MEDIUM-ROASTED</h1><br>
+                            <p>Medium-roasted coffee: a balanced and versatile choice. This roast level strikes a harmonious balance between flavor development and acidity. With a medium brown color and a smooth body, it offers a well-rounded and approachable taste. The medium roast brings out a combination of sweetness, acidity, and complexity, making it a popular option for a wide range of coffee enthusiasts. Whether enjoyed black or with milk, medium-roasted coffee delivers a satisfying and consistent flavor experience. It's the perfect choice for those seeking a balanced cup that showcases the best of both worlds in terms of flavor and aroma.</p>
+                        </div>
+                        <img src="./sf/ph17.png" alt="">
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <div class="roast">
+                        <div class="buna">
+                            <h1>HARD-ROASTED</h1><br>
+                            <p>Hard-roasted coffee: a bold and intense experience. This roast level pushes the beans to their limits, resulting in a deep, dark brown color and a robust flavor profile. Hard-roasted coffee offers a strong body, pronounced bitterness, and a caramelized taste. The extended roasting process brings out smoky, earthy notes, creating a rich and full-bodied cup. It's the perfect choice for those who prefer a powerful and bold coffee experience that lingers on the palate. Hard-roasted coffee is sure to satisfy those seeking a strong and invigorating brew that packs a punch.</p>
+                        </div>
+                        <img src="./sf/ph18.png" alt="">
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <div class="roast">
+                        <div class="buna">
+                            <h1>BLEND-ROASTED</h1><br>
+                            <p>Blend-roasted coffee: a masterful combination of flavors. This roast style brings together different coffee varieties to create a unique and well-rounded cup. By blending beans with distinct characteristics, it achieves a balanced acidity, body, and flavor profile. Each blend is carefully crafted to deliver a harmonious taste experience that appeals to a wide range of palates. With blend-roasted coffee, you can enjoy the best of multiple origins in a single cup. Indulge in the complexity and depth that blend-roasted coffee has to offer.</p>
+                        </div>
+                        <img src="./sf/ph19.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  <br><br>
+    
+
+    <!-- section 7 -->
+    <section class="section7">
+        <div class="collection">
+            <h1>FLAVOUR COLLECTIONS</h1><br><br>
+            
+            <div class="flavor1">
+                <img src="./sf/ph2.png" alt="">
+                <div class="f" >
+                    <h1>Ethiopian coffee</h1>
+                    <p>Ethiopian coffee: a tantalizing taste of aromatic elegance and rich cultural heritage.</p>
+                    <div class="order">
+                        <a href="menu.html">MENU</a>
+                        <a href="./orde.html">ORDER</a>
+                    </div>
+                </div>
+                <img  src="./sf/ph3.png" alt="">
+                <div class="f" >
+                    <h1>Brazilian coffee</h1>
+                    <p><p>Brazilian coffee: a bold and smooth brew that embodies the essence of South American coffee excellence.</p></p>
+                    <div class="order">
+                        <a href="menu.html">MENU</a>
+                        <a href="./orde.html">ORDER</a>
+                    </div>
+                </div>
+                <img src="./sf/ph4.png" alt="">
+                <div class="f" >
+                    <h1>Italian coffee</h1>
+                    <p>Italian coffee: an exquisite blend of artistry and intensity, captivating the senses with its bold flavors and velvety texture.</p>
+                    <div class="order">
+                        <a href="menu.html">MENU</a>
+                        <a href="./orde.html">ORDER</a>
+                    </div>
+                </div>
+            </div><br>
+            <div class="flavor1">
+                <img src="./sf/ph6.png" alt="">
+                <div class="f" >
+                    <h1>Colombian coffee</h1>
+                    <p>Colombian coffee: a world-class delight, showcasing the unparalleled richness and complexity that has made it a global favorite.</p>
+                    <div class="order">
+                        <a href="menu.html">MENU</a>
+                        <a href="./orde.html">ORDER</a>
+                    </div>
+                </div>
+                <img src="./sf/ph20.png" alt="">
+                <div class="f" >
+                    <h1>Mexican coffee</h1>
+                    <p>Mexican coffee: a cultural treasure, celebrated for its rich heritage, nuanced flavors, and the warmth it brings to every cup.</p>
+                    <div class="order">
+                        <a href="menu.html">MENU</a>
+                        <a href="./orde.html">ORDER</a>
+                    </div>
+                </div>
+                <img src="./sf/ph22.png" alt="">
+                <div class="f" >
+                    <h1>Kenyan coffee</h1>
+                    <p>Kenyan coffee is renowned for its bright acidity, complex flavors, and vibrant notes of blackcurrant and citrus.s</p>
+                    <div class="order">
+                        <a href="menu.html">MENU</a>
+                        <a href="./orde.html">ORDER</a>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
+    </section><br><br>
+
+
+    <!-- section 8 -->
+    <section class="section8">
+        <a href="./location.html"><h1>ABOUT US</h1></a><br>
+        <div class="map">
+            <div  id="map"></div>
+                <div class="location">
+                    <h1>ARYAM COFFEE</h1><br>
+                    <p>Aryam coffee cafe is an establishment that specializes in serving coffee-based beverages and provides a space for people to enjoy their drinks in a comfortable and social atmosphere. These cafes offer a variety of coffee options, such as brewed coffee and espresso-based drinks, along with pastries and light snacks. They are popular meeting places for friends, colleagues, or individuals looking to relax, work, or have conversations over a cup of coffee.</p><br><br><br><br>
+                    <div class="ww">
+                        <div class="ee">
+                            <a href="./location.html"><span  class="material-symbols-outlined">location_on</span>
+                            <h1>location</h1></a>
+                        </div>
+                    <div class="ee">
+                    <span class="material-symbols-outlined">phone_in_talk</span>
+                    <h1>+251 912656578</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section 9 -->
+    <section class="section9">
+        <h1>CUSTOMER FEED BACK</h1>
+        <div class="back">
+            <div class="feed">
+                <img src="./sf/ph23.jpg" alt="">
+                <p>I absolutely love the cozy atmosphere and friendly staff at this coffee cafe. The quality of their coffee is exceptional, and the baristas really know how to make a perfect cup. I appreciate the variety of options they offer, from classic brewed coffee to delicious specialty drinks. The pastries they serve are always fresh and delicious, making it the perfect spot for a quick breakfast or afternoon treat. The free Wi-Fi and comfortable seating make it a great place to work or catch up with friends. Overall, this coffee cafe has become my go-to spot for a fantastic coffee experience. <br><br><span id="ye" class="fa fa-star checked"></span>
+                <span id="ye" class="fa fa-star checked"></span>
+                <span id="ye" class="fa fa-star checked"></span>
+                <span id="ye" class="fa fa-star"></span>
+                <span id="ye" class="fa fa-star"></span></p>
+            </div>
+            <div class="feed">
+                <img src="./sf/ph24.jpg" alt="">
+                <p>I recently visited this coffee cafe, and I must say it exceeded my expectations. The coffee was rich, flavorful, and expertly brewed. The baristas were friendly and knowledgeable, making excellent recommendations based on my preferences. The cozy and inviting ambiance made it the perfect place to unwind and enjoy my cup of coffee. The selection of pastries was delightful, and everything tasted fresh and homemade. The staff provided exceptional service, and the attention to detail was evident in every aspect of my visit. This coffee cafe has become my new favorite spot, and I can't wait to return. <br><br><span id="ye" class="fa fa-star checked"></span>
+                <span id="ye" class="fa fa-star checked"></span>
+                <span id="ye" class="fa fa-star checked"></span>
+                <span id="ye" class="fa fa-star"></span>
+                <span class="fa fa-star"></span></p>
+            </div>
+        </div>
+    </section><br>
+
+
+    <!--  -->
+    <section class="contact"><br>
+        <h2>CONTACT US</h2>
+
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field field">
+                     <input type="text"placeholder="Full Name" id="name" 
+                     class="item" autocomplete="off" required>
+                     
+                </div>
+                <div class="input-field field">
+                    <input type="email"placeholder="Email Address" id="email"
+                    class="item" autocomplete="off" required>
+                   
+               </div>
+            </div>
+            <div class="input-box">
+                <div class="input-field field">
+                     <input type="number"placeholder="Phone Number" id="phone"
+                     class="item" autocomplete="off" required>
+                     
+                </div>
+                <div class="input-field field">
+                    <input type="text"placeholder="Subject" id="subject"
+                    class="item" autocomplete="off" requireds>
+                    
+               </div>
+            </div>
+
+            <div class="textarea-field field">
+                <textarea name="" id="message" cols="30" rows="10"
+                placeholder="Your Message" class="item" 
+                autocomplete="off" required></textarea>
+                
+            </div>
+
+            <button type="submit">Send Message</button>
+        </form><br>
+
+    </section><br><br><br>
+
+    <!--  -->
+    <p id="me"> Developed by leul</p>
+
+<!-- js -->
+  <script src="project.js"></script> 
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>      
+</body>
+<script>
+    document.querySelector('#search-box').
+    addEventListener('input', filterList);
+     
+    function filterList(){
+        const searchInput=document.querySelector
+        ('#search-box');
+        const filter = searchInput.value.toLowerCase();
+        const listItems = document.querySelectorAll('.list-group-item');
+
+        listItems.forEach((item) => {
+            let text = item.textContent;
+            if(text.toLocaleLowerCase().includes(filter.
+            toLocaleLowerCase())){
+                item.style.display = '';
+
+            }
+            else{
+                item.style.display = 'none';
+            }
+        });
+    }
+</script>
+</html>

@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "product_id": 10,
+        "quantity":11,
+        "name": " ETHIOPIAN COFFEE",
+        "price": 45,
+        "image": "./sf/ph2.png"
+    },
+    {
+        "id": 2,
+        "product_id": 12,
+        "quantity":13,
+        "name": "BRAZILIAN COFFEE",
+        "price": 65,
+        "image": "./sf/ph3.png"
+    },
+    {
+        "id": 3,
+        "product_id": 14,
+        "quantity":15,
+        "name": "ITALIAN COFFEE",
+        "price": 55,
+        "image": "./sf/ph4.png"
+    },
+    {
+        "id": 4,
+        "product_id": 16,
+        "quantity":17,
+        "name": "TURKISH COFFEE",
+        "price": 40,
+        "image": "./sf/ph5.png"
+    },
+    {
+        "id": 5,
+        "product_id": 18,
+        "quantity":19,
+        "name": "COLOMBIAN COFFEE",
+        "price": 60,
+        "image": "./sf/ph2.png"
+    },
+    {
+        "id": 6,
+        "product_id": 20,
+        "quantity":21,
+        "name": "MEXICAN COFFEE",
+        "price": 45,
+        "image": "./sf/ph20.png"
+    },
+    {
+        "id": 7,
+        "product_id": 22,
+        "quantity":23,
+        "name": "UGANDAN COFFEE",
+        "price": 30,
+        "image": "./sf/ph21.png"
+    },
+    {
+        "id": 8,
+        "product_id": 24,
+        "quantity":25,
+        "name": "KENYAN COFFEE",
+        "price": 35,
+        "image": "./sf/ph22.png"
+    }
+]

@@ -1,0 +1,110 @@
+body{
+    background-image: url(./sf/mn2.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+}
+.header{
+    display: flex;
+}
+.header img{
+    width: 139px;
+    height: 120px;
+}
+.list1 ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 200px;
+    border-radius: 30px;   
+}
+.list1 a{
+    text-decoration: none;
+    margin-left: 50px;
+    line-height: 100px;
+    padding-left: 5px;
+    padding-right: 30px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.list1 a:hover{
+    
+    transition: 1s;
+    color: rgb(255, 38, 0);
+}
+@media(max-width:700px){
+    .header{
+        
+        margin-top: 1px;
+    }
+    #menu{
+        display: inline-block;   
+    }
+    .no{
+        margin-left: 90%;
+        margin-top: -50px;
+    }
+    #person{
+        display: inline-block;
+    }
+    .header img{
+        width: 100px;
+        height: 80px;
+    }
+    .header .list1 {
+      
+      display: block;
+    }
+    .list1 ul{
+        display: block;
+        margin-left:430px;
+        
+    }
+    .list1 a{
+        margin: 0px;
+        color: brown;
+        line-height: 0px;
+        font-size: 15px;
+       
+    }
+    .list1.active{
+        transform: scaleY(0);
+    }
+    .list1 a:hover{
+        margin-left: 0px;
+       padding: 0px;
+        color: rgb(255, 38, 0);
+    }
+}
+
+
+/*  */
+#map { 
+    height: 380px; 
+    width: 270%;
+    opacity: 0.8;
+    margin-left: 10px;
+    padding-left: 100px;
+    
+}
+h1{
+    text-align: center;
+    color:  rgba(255, 38, 0, 0.767);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.location{
+    display: flex;
+}
+div h2{
+    color:  rgba(255, 38, 0, 0.616);
+    font-size: 21px;
+    font-family: cursive;
+    text-decoration: underline;
+    margin-left: 15px;
+}
+div p{
+    font-family: cursive ;
+    font-size: 13px;
+    color: rgba(126, 122, 91, 0.685);
+    margin-left: 15px;
+}
